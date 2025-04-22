@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  #title {
+    font-size: 24px;
+    margin-bottom: 0.5em;
+  }
+  
+  #description {
+    font-size: 16px;
+    margin-bottom: 1.5em;
+  }
+  
+  svg {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .county {
+    stroke: #fff;
+    stroke-width: 0.3;
+  }
+  
+  #tooltip {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 0.5rem 1rem;
+    border: 1px solid #333;
+    border-radius: 4px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  
+  #legend {
+    margin: 30px auto;
+    display: block;
+    font-size: 12px;
+  }
+  
